@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/mvp-working-green.svg)
 ![](https://img.shields.io/badge/bonus-none-lightgrey.svg)
 
-## Requirements
+## Part One Requirements
 
 For this exercise, you're going to
 - [x] Create a basic application, with a single view.
@@ -32,3 +32,12 @@ You will need:
         - `ng-repeat: filter`
 - [ ] Load the JSON below into a new Firebase application rather than reading it from a local file.
 - [x] Put the JSON object into `$scope.mushrooms` and bind that varisable in your partial.
+
+## Part Two Requirements: Factory
+
+You are going to modify your Mushroom Mania application to use a factory to retrieve the mushroom data instead of retrieving it directly in your controller.
+
+- [x] Create a new factory for your Angular application. Make sure your factory returns something.
+- [x] Inject the factory dependency into your controller.
+- [x] Invoke the appropriate function that your factory exposes to get the mushroom data.
+- [x] When the method is successful, take the results and put them into `$scope.mushrooms` variable in your controller that is bound to the partial.
