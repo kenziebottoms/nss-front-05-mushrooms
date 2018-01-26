@@ -1,8 +1,8 @@
 <h3>Mushrooms</h3>
 <table class="table">
-    <tr ng-repeat="shroom in mushrooms">
+    <tr ng-repeat="shroom in mushrooms|filter:{description:shroomSearch, edible:!+poisonous}">
         <td>{{shroom.name}}</td>
-        <td class="text-muted">{{shroom.edible ? "edible" : ""}}</td>
+        <td class="text-muted" style="white-space: nowrap">{{shroom.edible ? "non-poisonous" : "poisonous"}}</td>
         <td>{{shroom.description}}</td>
     </tr>
 </table>

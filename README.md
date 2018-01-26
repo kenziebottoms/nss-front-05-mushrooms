@@ -8,16 +8,16 @@
 ## Requirements
 
 For this exercise, you're going to
-- [ ] Create a basic application, with a single view.
+- [x] Create a basic application, with a single view.
 - [x] Load the JSON data below.
     - [x] Display it in a list.
     - Above the list, provide
-        - [ ] one text box
-        - [ ] and two radio buttons,
-            - [ ] poisonous and
-            - [ ] non-poisonous.
-- [ ] When the user types **any** text into the text box, the list of mushrooms should be filtered down to any mushrooms whose description contains that text.
-- [ ] When the user clicks either of the radio buttons, only the appropriate mushrooms should be displayed.
+        - [x] one text box
+        - [x] and two radio buttons,
+            - [x] poisonous and
+            - [x] non-poisonous.
+- [x] When the user types **any** text into the text box, the list of mushrooms should be filtered down to any mushrooms whose description contains that text.
+- [x] When the user clicks either of the radio buttons, only the appropriate mushrooms should be displayed.
 
 You will need:
 

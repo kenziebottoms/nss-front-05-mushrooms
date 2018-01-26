@@ -12,6 +12,19 @@
 </head>
 <body ng-app="mushrooms">
     <div class="container my-3">
+        <div class="row m-5 ">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Search" ng-model="shroomSearch">
+            </div>
+            <label>
+                <input type="radio" ng-model="poisonous" value="1">
+                Poisonous
+            </label><br/>
+            <label>
+                <input type="radio" ng-model="poisonous" value="0">
+                Non-poisonous
+            </label>
+        </div>
         <div id="content" ng-view></div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
