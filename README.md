@@ -9,8 +9,9 @@
 
 For this exercise, you're going to
 - [ ] Create a basic application, with a single view.
-- [ ] Load the JSON data below.
-    - [ ] Display it in a list. Above the list, provide
+- [x] Load the JSON data below.
+    - [x] Display it in a list.
+    - Above the list, provide
         - [ ] one text box
         - [ ] and two radio buttons,
             - [ ] poisonous and
