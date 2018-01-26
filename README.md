@@ -21,13 +21,13 @@ For this exercise, you're going to
 
 You will need:
 
-- [ ] An Angular application module.
-    - [ ] One controller defined in your application.
-        - [ ] The controller will load the JSON with an XHR call using the `$http` function that Angular provides.
-    - [ ] One partial bound to the controller.
+- [x] An Angular application module.
+    - [x] One controller defined in your application.
+        - [x] The controller will load the JSON with an XHR call using the `$http` function that Angular provides.
+    - [x] One partial bound to the controller.
     - Several directives will be helpful.
         - `ng-repeat`
         - `ng-click`
         - `ng-repeat: filter`
 - [ ] Load the JSON below into a new Firebase application rather than reading it from a local file.
-- [ ] Put the JSON object into `$scope.mushrooms` and bind that variable in your partial.
+- [x] Put the JSON object into `$scope.mushrooms` and bind that varisable in your partial.
